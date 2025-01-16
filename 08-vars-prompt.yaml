@@ -8,7 +8,8 @@
   - name: DURATION
     prompt: Please Enter Duration
   - name: TRAINER
-    prompt: Please Enter Trainer Name 
+    prompt: Please Enter Trainer Name
+    private: false 
   tasks:
   - name: print course information
     ansible.builtin.debug:
