@@ -8,7 +8,7 @@
       state: intalled
     when: ansible_os_family == "RedHat"
 
-   - name: intall nginx if Ubuntu
+  - name: intall nginx if Ubuntu
     ansible.builtin.apt:
       name: nginx
       state: intalled
